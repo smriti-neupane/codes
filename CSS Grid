@@ -1,0 +1,9 @@
+body {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr)1.5fr 2fr 1fr;
+}
+
+
+body > * {
+  border: 5px solid lightgoldenrodyellow;
+}
